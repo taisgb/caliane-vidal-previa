@@ -10,3 +10,36 @@
 .space figure img{display:block;object-position:center center;margin-inline:auto}
 @media(max-width:650px){.portrait{width:min(100%,330px);height:440px}.about-photo{width:min(100%,320px);height:420px}.portrait img,.about-photo img{inset:18px 0 0;height:calc(100% - 18px)}.portrait-caption{bottom:14px}}
 @media(max-width:360px){.portrait{height:390px}.about-photo{height:380px}}
+
+/* V4 — seção de atuação com hierarquia clínica e menor densidade visual */
+#atuacao .featured{grid-template-columns:minmax(0,1.45fr) minmax(0,.8fr);align-items:center;gap:clamp(24px,4vw,48px);padding:clamp(24px,4vw,48px);border-radius:36px 10px 36px 10px;background:linear-gradient(135deg,#fffaf5 10%,#f0d9d5);box-shadow:0 5px 12px #543d3310,0 22px 40px -20px #543d3340}
+.dtm-focus{min-width:0;padding:24px;border-radius:22px 6px 22px 6px;background:#fffaf5a8;border:1px solid #c5a48270;box-shadow:inset 0 1px 0 #fff}
+.focus-kicker{display:block;font:700 .65rem/1.5 var(--sans);letter-spacing:.10em;color:#85414e}
+.dtm-focus ul{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:0}
+.dtm-focus li{display:flex;align-items:center;gap:12px;padding:13px 0;border-bottom:1px solid #b69a6033}
+.dtm-focus li:last-child{border:0;padding-bottom:0}
+.dtm-focus svg,.service-icon svg{width:25px;height:25px;flex:none;color:#9e5361}
+.dtm-focus strong,.dtm-focus small{display:block}
+.dtm-focus strong{font-size:.95rem}
+.dtm-focus small{font-size:.77rem;line-height:1.45;color:var(--muted)}
+#atuacao .cards{gap:16px;margin-top:22px}
+#atuacao .cards article{display:grid;grid-template-columns:48px minmax(0,1fr);align-content:start;align-items:center;column-gap:15px;row-gap:10px;padding:24px;border-radius:9px 28px 9px 9px;background:linear-gradient(145deg,#fffdf8,#f8eae5);box-shadow:0 3px 8px #543d330e,0 13px 25px -16px #543d334a,inset 0 1px 0 #fff}
+#atuacao .cards article:nth-child(even){border-radius:28px 9px 9px 9px}
+.service-icon{width:48px;height:48px;border-radius:14px 5px 14px 5px;background:#f0d9d5;display:grid;place-items:center;box-shadow:inset 0 1px 0 #fff}
+#atuacao .cards h3{margin:0;font-size:clamp(1.5rem,2.3vw,2.1rem);line-height:1.15;letter-spacing:-.02em}
+#atuacao .cards p{grid-column:2;font-size:.92rem;line-height:1.6}
+@media(max-width:650px){
+#atuacao .featured{grid-template-columns:minmax(0,1fr);gap:20px;padding:22px 19px;border-radius:28px 9px 28px 9px}
+#atuacao .featured h2{font-size:clamp(2.25rem,9vw,3rem)}
+#atuacao .featured p{font-size:.94rem;line-height:1.6}
+#atuacao .featured .btn{margin-top:18px;max-width:100%;min-height:46px;padding-inline:15px}
+.dtm-focus{padding:15px 16px}
+.dtm-focus li{padding:9px 0}
+#atuacao .cards{gap:14px;margin-top:18px}
+#atuacao .cards article{padding:19px 16px;grid-template-columns:40px minmax(0,1fr);gap:9px 12px}
+.service-icon{width:40px;height:40px}
+.service-icon svg{width:22px;height:22px}
+#atuacao .cards h3{font-size:1.6rem}
+#atuacao .cards p{font-size:.9rem}
+}
+@media(prefers-reduced-motion:reduce){#atuacao .cards article:hover{transform:none}}
