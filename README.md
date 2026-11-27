@@ -1,3 +1,2 @@
-# Caliane Vidal — prévia de site
-
-Projeto de prospecção não oficial.
+# Caliane Vidal — prévia não oficial
+Landing page estática de prospecção. Publicar em GitHub Pages a partir de main / root. Noindex até aprovação. Retratos recortados das publicações fornecidas, sem reconstruir rosto ou corpo. Foto da entrada contém a marca anterior. Monograma tipográfico provisório. Registro CREFITO 459757-F divulgado no Instagram; validar no conselho. Telefone comercial obtido na pesquisa anterior; confirmar com a profissional. Confirmar direitos de uso das fotografias, contatos e marca antes da publicação definitiva.
